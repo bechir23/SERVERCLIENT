@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  * @author bechi
  */
 public class TCPservermultithreading {
-    private static final int PORT = 11010;
+    private static final int PORT = 11;
     private static final int MAX_THREADS = 10;
     private static final ExecutorService executorService = Executors.newFixedThreadPool(MAX_THREADS);
 

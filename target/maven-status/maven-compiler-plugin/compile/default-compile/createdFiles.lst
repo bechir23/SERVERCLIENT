@@ -1,7 +1,11 @@
 com\mycompany\serverclient\UDPclient.class
 com\mycompany\serverclient\TCPserver.class
 com\mycompany\serverclient\TCPservermultithreading$ClientHandler.class
+RMI\RmiClient.class
+RMI\RmiServer.class
 com\mycompany\serverclient\TCPclient2.class
+RMI\EchoInterface.class
 com\mycompany\serverclient\UDPserver.class
 com\mycompany\serverclient\TCPclient.class
+RMI\EchoImplementation.class
 com\mycompany\serverclient\TCPservermultithreading.class

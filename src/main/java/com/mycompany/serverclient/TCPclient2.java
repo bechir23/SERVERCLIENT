@@ -18,7 +18,7 @@ public class TCPclient2 {
     
     public static void main(String[] args) {
 try {
-    try (Socket socket = new Socket("localhost",111)) {
+    try (Socket socket = new Socket("localhost",11)) {
         PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
         BufferedReader in =new BufferedReader(new InputStreamReader(socket.getInputStream())) ;
         String message ="Hello TCP" ;
